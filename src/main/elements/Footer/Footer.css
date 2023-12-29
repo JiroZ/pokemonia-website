@@ -1,0 +1,35 @@
+.footer {
+
+}
+
+.informationBox {
+
+    width: 70vw;
+    position: absolute;
+    /* center the element */
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    /* give it dimensions */
+}
+
+.footerBox {
+    position: absolute;
+    bottom: 0;
+    padding-top: 35px;
+    padding-left: 35px;
+    padding-bottom: 35px;
+    width: 100% !important;
+    --size: 20px;
+    --R: calc(var(--size)*1.28);
+
+    -webkit-mask:
+            radial-gradient(var(--R) at 50% calc(1.8*var(--size)),#000 99%,#0000 101%)
+            calc(50% - 2*var(--size)) 0/calc(4*var(--size)) 100%,
+            radial-gradient(var(--R) at 50% calc(-.8*var(--size)),#0000 99%,#000 101%)
+            50% var(--size)/calc(4*var(--size)) 100% repeat-x;
+    /*background: linear-gradient(140deg,slategray, white);*/
+    background: gray;
+    maring: 15px;
+}

@@ -1,0 +1,82 @@
+.centered {
+    width: 100vw; /* Magic here */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsBox {
+    width: 40vw; /* Magic here */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.bannerArea {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+
+.fill img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+
+#overlay {
+    position: relative;
+}
+
+#overlay::before {
+    background-image: linear-gradient( top left,
+    rgba( 255, 255, 255, 0 ) 0%,
+    rgba( 255, 255, 255, 0.7 ) 100% );
+    background-image: -moz-linear-gradient( top left,
+    rgba( 255, 255, 255, 0 ) 0%,
+    rgba( 255, 255, 255, 0.7 ) 100% );
+    background-image: -ms-linear-gradient( top left,
+    rgba( 255, 255, 255, 0 ) 0%,
+    rgba( 255, 255, 255, 0.7 ) 100% );
+    background-image: -o-linear-gradient( top left,
+    rgba( 255, 255, 255, 0 ) 0%,
+    rgba( 255, 255, 255, 0.7 ) 100% );
+    background-image: -webkit-linear-gradient( top left,
+    rgba( 255, 255, 255, 0 ) 0%,
+    rgba( 255, 255, 255, 0.7 ) 100% );
+    content: "\00a0";
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.container {
+    width: 150px;
+    height: 150px;
+    position: relative;
+}
+
+.box {
+    position: absolute;
+}
+
+.overlay {
+    z-index: 9;
+}
+
+.logo {
+    width: 50%;
+    height: 50%;
+    align-self: flex-start;
+}
+
+.homeCarousal {
+
+}

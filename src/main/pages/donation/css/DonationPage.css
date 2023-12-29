@@ -1,0 +1,15 @@
+.centered {
+    width: 100vw; /* Magic here */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 50%;
+    height: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

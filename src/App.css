@@ -1,0 +1,40 @@
+
+
+@media (max-width:680px) {
+  .App {
+    max-width: 95vw;
+    width: 95vw;
+    position: absolute ;
+    /* center the element */
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    /* give it dimensions */
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+    flex: 1;
+  }
+}
+
+@media (min-width: 681px) {
+  .App {
+    max-width: 1280px;
+    width: 1280px;
+    position: absolute ;
+    /* center the element */
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    /* give it dimensions */
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    flex: 1;
+  }
+}
