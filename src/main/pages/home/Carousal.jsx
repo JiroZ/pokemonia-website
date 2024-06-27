@@ -20,8 +20,6 @@ const MainCarousal = () => {
                             <p className="legend">{step.label}</p>
                         </div>
                     ))}
-
-
                 </Carousel>
             </Box>
         </>
